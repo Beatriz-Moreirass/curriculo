@@ -1,0 +1,75 @@
+.foto-perfil{
+    width: 200px;
+    /*borda: espessura da borda tipo da borda cor da borda */
+    border:5px double #ececec;
+}
+
+.cabecalho{
+    background-color: darkgray;
+    width: 1000px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-bottom:30px;
+    text-align: center;
+    background-image: url("fundo.jpg");
+    background-size: cover;
+}
+
+.nome{
+    color:  black;
+    margin: top 5px;
+    margin-bottom:0;
+    font-family: arial;
+    font-size: 30px;
+}
+
+.cargo{
+    color:  black;
+    margin-top:'Segoe UI';
+    font-weight: 200;
+    font-size: 22px;
+}
+
+.botao{
+    border: 1px solid black;
+    display: block;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI';
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+  .botao:hover{
+background-color: hotpink;
+border-color:#c4b;
+} 
+.informacoes{
+    width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color:whitesmoke;
+    text-decoration: none;
+}
+.titulo{
+    font-family:'Segoe UI';
+    color: 333;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+    text-transform: uppercasse;
+}
+.texto-sobre{
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    color: black;
+
+}
